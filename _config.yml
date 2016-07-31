@@ -1,0 +1,16 @@
+name: esioci
+description: esioci official site
+#meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://esioci.github.io'
+google_analytics: 'UA-80933970-1'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'https://esioci.github.io'
+author:         'esioci'
