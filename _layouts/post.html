@@ -78,8 +78,8 @@ post_class: post-template
             {% include share.html %}
 
             <!-- Disqus comments -->
-            {% if page.disqus %}
-                {% include disqus.html %}
+            {% if page.comments %}
+                {% include comments.html %}
             {% endif %}
 
         </footer>
